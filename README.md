@@ -1,7 +1,7 @@
-
 # SpikeFET
+A unified framework for Spiking Frame-Event Tracking.
 
-A unified framework for Spiking Frame-Event Tracking. 
+This is an official release of the **NeurIPS 2025** paper: [Fully Spiking Neural Networks for Unified Frame-Event Object Tracking](https://arxiv.org/abs/2505.20834).
 
 <p align="center">
   <img width="85%" src="./figures/framework.png" alt="Framework"/>
@@ -12,7 +12,6 @@ A unified framework for Spiking Frame-Event Tracking.
 
 [[Raw Results](https://drive.google.com/drive/folders/1wTJX9MEdt7qwpSrKtwbAj9ZdMnIrnLFq?usp=drive_link)] Google Driver
 [[Raw Results](https://pan.baidu.com/s/1UkT3aRT8t-2bOJCQUthWdQ?pwd=tqmi)] Baidu Driver Passcode：tqmi
-
 
 It consist of the following folds:
 
@@ -128,6 +127,17 @@ We refer you to [COESOT_eval_toolkit](https://github.com/Event-AHU/COESOT) for e
 # Profiling spikefet_visevent
 python tracking/profile_model.py --script spikefet --config spikefet_visevent_base
 ```
+## Bixtex
+If you find SpikeFET is helpful for your research, please consider citing:
+
+```bibtex
+@article{yang2025fully,
+  title={Fully Spiking Neural Networks for Unified Frame-Event Object Tracking},
+  author={Yang, Jingjun and Fan, Liangwei and Zhang, Jinpu and Lian, Xiangkai and Shen, Hui and Hu, Dewen},
+  journal={arXiv preprint arXiv:2505.20834},
+  year={2025}
+}
+```
 ## Acknowledgments
 
-* Thanks for the [CEUTrack](https://github.com/Event-AHU/COESOT) and [E-SpikeFormer](https://github.com/BICLab/Spike-Driven-Transformer-V3) library, which help us to quickly implement our ideas.
+* Thanks for the [CEUTrack](https://github.com/Event-AHU/COESOT) and [E-SpikeFormer](https://github.com/BICLab/Spike-Driven-Transformer-V3) library, which help us to quickly implement our codes.
