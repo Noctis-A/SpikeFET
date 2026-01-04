@@ -50,7 +50,7 @@ It consist of the following folds:
     <td>8.80</td>
     <td>64.4</td>
     <td>39.4</td>
-    <td>-</td>
+    <td>53.7</td>
   </tr>
 </table>
 
@@ -77,7 +77,18 @@ Then, put the tracking datasets [FE108](https://zhangjiqing.com/dataset/)、[Vis
 Download pre-trained [SpieFET-Tiny weights](https://drive.google.com/file/d/1J9197drVOrMHbtJFUm-49XYDVwb9i8x6/view?usp=drive_link)、 [SpikeFET-Base weights](https://drive.google.com/file/d/1qGZOeoD-TunZXomBleJsujOk1_cRHOyJ/view?usp=drive_link) and put it under `$/pretrained_models`
 
 Download the [Models weights](https://drive.google.com/drive/folders/1JlVOSm1dZM0_RjcwQ6bqdLa4JBBwPtGz?usp=sharing) and put it on `$/output/checkpoints/train/spikefet`
+## Data Preprocess
 
+Run the three scripts for train dataset:
+```
+python scripts/visevent/event_to_eventframe_visevent.py
+python scripts/fe108/event_to_eventframe_FE108.py
+python scripts/coesot/event_to_eventframe_coesot.py
+```
+Modify the corresponding parameters and run:
+```
+python scripts/get_dataset_lists.py
+```
 ## Train
 ```
 # train
