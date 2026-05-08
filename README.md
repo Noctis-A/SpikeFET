@@ -142,11 +142,13 @@ python tracking/profile_model.py --script spikefet --config spikefet_visevent_ba
 If you find SpikeFET is helpful for your research, please consider citing:
 
 ```bibtex
-@article{yang2025fully,
-  title={Fully Spiking Neural Networks for Unified Frame-Event Object Tracking},
+@inproceedings{yang2026fully,
+  title={Fully spiking neural networks for unified frame-event object tracking},
   author={Yang, Jingjun and Fan, Liangwei and Zhang, Jinpu and Lian, Xiangkai and Shen, Hui and Hu, Dewen},
-  journal={arXiv preprint arXiv:2505.20834},
-  year={2025}
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={121132--121163},
+  year={2026}
 }
 ```
 ## Acknowledgments
